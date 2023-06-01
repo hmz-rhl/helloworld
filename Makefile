@@ -26,8 +26,8 @@ CFLAGS = -Wall
 #CFLAGS += -g -O0   # Enable for Debugging
 CFLAGS += -I$(top_builddir)/include
 CFLAGS += -I$(top_builddir)/src
-CFLAGS += -I$(top_builddir)/src/vfio
-CFLAGS += -I$(top_builddir)/flib/mc
+#CFLAGS += -I$(top_builddir)/src/vfio
+#CFLAGS += -I$(top_builddir)/flib/mc
 
 #Flags passed on make command line
 CFLAGS += $(CMDFLAGS)
